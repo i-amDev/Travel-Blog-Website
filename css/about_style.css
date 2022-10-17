@@ -1,0 +1,237 @@
+/* -------------------------------GENERAL STYLING------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p, li{
+    font-size: 1.6rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+}
+h1, h2, h3{
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+}
+/* -------------------------------GENERAL STYLING------------------------------ */
+
+/* -------------------------------UTILITIES CLASSES--------------------------- */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+}
+.large-heading{
+    font-size: 3.5rem;
+}
+.medium-heading{
+    font-size: 2.2rem;
+}
+.text-red{
+    color: #e63946;
+}
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color: #333333;
+}
+.text-grey{
+    color: #555555;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.navbar{
+    /* border: 2px solid white; */
+    padding: 1rem;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+.navbar .items{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+/* -------------------------------UTILITIES CLASSES--------------------------- */
+
+/* -------------------------------HEADER STYLING------------------------------ */
+.header{
+    color: #ffffff;
+}
+.navbar a:link, .navbar a:visited{
+    color: #f4f4f4;
+}
+.navbar a{
+    padding: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.navbar::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.navbar .logo,.navbar a{
+    color: white;
+}
+/* -------------------------------HEADER STYLING------------------------------ */
+
+/* -------------------------------CONTENT STYLING------------------------------ */
+.about{
+    padding: 5rem;
+}
+.about-heading::after{
+    content: " ";
+    display: block;
+    border-bottom: 5px solid #e63946;
+    width: 100%;
+}
+/* .about-heading{
+    border-bottom: 5px solid #e63946;
+} */
+.about-wrapper{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+.about-wrapper::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.about-wrapper li::before{
+    content: "\2713";
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.box-wrapper{
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    text-align: center;
+}
+.box-wrapper .left{
+    /* border: 2px solid red; */
+    float: left;
+    width: 50%;
+}
+.box-wrapper .right{
+    /* border: 2px solid green; */
+    float: right;
+    width: 50%;
+}
+.box-wrapper::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.box-wrapper .left .left1{
+    float: left;
+    width: 50%;
+}
+.box-wrapper .left .right1{
+    float: right;
+    width: 50%;
+}
+.box-wrapper .left::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.box-wrapper .right .left2{
+    float: left;
+    width: 50%;
+}
+.box-wrapper .right .right2{
+    float: right;
+    width: 50%;
+}
+.box-wrapper .right::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.box-wrapper h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+.box-wrapper p{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #555555;
+}
+.banner{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #f4f4f4;
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px #000000;
+}
+.banner .left{
+    width: 60%;
+    float: left;
+}
+.banner .right{
+    width: 40%;
+    float: right;
+    /* border: 3px solid #e63946; */
+    text-align: right;
+}
+.banner::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.banner .right .button{
+    color: #f4f4f4;
+}
+.line{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.1rem;
+}
+.button{
+    color: #f4f4f4;
+    border: 4px solid white;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0.3rem 2.0em;
+    letter-spacing: 0.5rem;
+}
+/* -------------------------------CONTENT STYLING------------------------------ */

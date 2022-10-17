@@ -1,0 +1,198 @@
+/* -------------------------------GENERAL STYLING------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p, li{
+    font-size: 1.6rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+}
+h1, h2, h3{
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+}
+/* -------------------------------GENERAL STYLING------------------------------ */
+
+/* -------------------------------UTILITIES CLASSES--------------------------- */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 70%;
+}
+.large-heading{
+    font-size: 3.5rem;
+}
+.medium-heading{
+    font-size: 2.2rem;
+}
+.text-red{
+    color: #e63946;
+}
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color: #333333;
+}
+.text-grey{
+    color: #555555;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.navbar{
+    /* border: 2px solid white; */
+    padding: 1rem;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+.navbar .items{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+/* -------------------------------UTILITIES CLASSES--------------------------- */
+
+/* -------------------------------HEADER STYLING------------------------------ */
+.header{
+    color: #ffffff;
+}
+.navbar a:link, .navbar a:visited{
+    color: #f4f4f4;
+}
+.navbar a{
+    padding: 0.3rem;
+}
+.navbar a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.navbar::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.navbar .logo,.navbar a{
+    color: white;
+}
+/* -------------------------------HEADER STYLING------------------------------ */
+
+/* -------------------------------CONTENT STYLING------------------------------ */
+.content .container{
+    /* border: 2px solid black; */
+    margin-top: 4rem;
+    background: #f7f7f7;
+}
+.left .item4 img{
+    width: 50%;
+    height: 50%;
+}
+.content .left{
+    height: 760px;
+    /* border: 2px solid red; */
+    width: 49%;
+    /* background-color: lightcoral; */
+    float: left;
+    background: #ffffff;
+    padding: 1rem;
+}
+.content .left .item{
+    margin-bottom: 2rem;
+}
+.content .left i{
+    display: inline-block;
+}
+.content .left h1{
+    display: inline-block;
+}
+.content .container img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+.content .right{
+    height: 760px;
+    font-size: 1.6rem;
+    /* border: 2px solid green; */
+    width: 49%;
+    float: right;
+    background: #ffffff;
+    padding: 1rem;
+}
+.container::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.right h1::after{
+    content: " ";
+    display: block;
+    border: 4px solid #e63946;
+    width: 100%;
+}
+.right form label{
+    display: block;
+}
+.right form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.right .form-items {
+    margin-bottom: 1.2rem;
+}
+.right label::after{
+    content: "* ";
+    color: #e63946;
+}
+.right textarea{
+    width: 100%;
+    padding: 50px;
+}
+.right button{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+/* -------------------------------CONTENT STYLING------------------------------ */
+
+/* -------------------------FOOTER STYLING--------------------------------- */
+.footer{
+    background-color: #263238;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+i{
+    margin: 1rem;
+}
+/* -------------------------FOOTER STYLING--------------------------------- */
